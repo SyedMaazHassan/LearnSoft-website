@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif}
+
+*{box-sizing:border-box}
+
+.container{
+	padding:16px;
+	width:600px;
+	margin:30px 325px;
+	background-color:#FFF;
+	border-radius:15px;
+}
+	
+input[ type=text ], input[ type=password ] , input[ type=email ]
+	{width:100%;
+	padding:15px;
+	margin:5px 0px 22px 0px;
+	border:none;
+	background:#f1f1f1;}
+	
+input[type=text]:focus , input[type=password]:focus input[ type=Email ]:focus
+	{background-color:#ddd;
+	outline:none;}
+	
+hr{
+	margin-bottom:25px;
+	border: 1px solid #fafafa;}
+
+
+
+.submitbtn{
+	background-color:#20547a;
+	height:40px;
+	font-size:18px;
+	color:white;
+	font-family:arial;
+	padding:8px 0px;
+	margin:16px 0px 0px 0px;
+	border:none;
+	cursor:pointer;
+	width:100%;
+	opacity:0.9;
+	border-radius:15px;}
+	
+.submitbtn:hover{
+	opacity:1;}
+	
+a{color:dodgerblue;}

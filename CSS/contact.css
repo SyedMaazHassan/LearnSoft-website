@@ -1,0 +1,161 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0px;
+	padding:0px;}
+	
+h1{
+	color:#20547a;
+	margin-top:50px;
+	}
+	
+h2{color:#20547a;
+	margin-top:25px;
+}
+	
+.bt:hover{color:#FFF;}
+
+
+p{
+	line-height:25px;
+	margin-top:0px;
+	color:#666;}
+	
+a{text-decoration:none}
+
+p{
+	color:#666;}
+
+body{font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif}
+
+
+.wrapper{
+	height:100%;
+	width:1150px;
+	margin:auto;}
+	
+.head{
+	height:120px;
+	width:100%;
+	background-color:#FFFFFF;}
+	
+.head h1{
+	line-height:120px;
+	font-size:30pt;
+	font-family:fascinate-inline;
+	float:left;
+	margin:0px 0px; }
+	
+.icon{
+	float:right;
+	height:60px;
+	width:400px;
+	margin:30px 0px;
+	padding:0px 0px;}
+.logo{
+	height:80px;
+	width:300px;
+	float:left;
+	margin:23px 0px;}
+	
+.nav{
+	height:50px;
+	width:100%;
+	background-color:#000;
+	opacity:0.9;}	
+
+.nav ul{
+	list-style:none;
+	float:right;}
+.nav ul li{
+	display:inline;
+	padding:0px 0px 0px 50px;
+	line-height:50px;
+	margin-left:0px;
+	transition-duration:1s;}
+
+.slider{
+	width:100%;
+	height:400px;
+	background-image:url(../img/ssss.jpg);}
+
+
+.nav ul li:hover{
+	font-size:15px;
+	font-weight:500;
+	color:#FF0;
+	transition-duration:1s;}
+
+
+.slider img{
+	transition-duration:1s;}
+
+.slider img:hover{
+	opacity:0;
+	transition-duration:1s;}
+
+.c1{
+	float:left;
+	margin-top:25px;
+	margin-left:-0px;}
+	
+/*contact form*/
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color:#20547a;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+	-webkit-filter:brightness(90%)}
+
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+	float:left;
+}
+
+.c2{
+	float:right;
+	height:680px; 
+	width:750px;
+	margin-top:25px;}
+	
+
+.foot{
+	width:100%;
+	height:200px;
+	background-color:#F00;
+	margin-top:1130px;
+	background-color:#000;
+	color:#CCC;
+	opacity:0.87;}
+
+
+.foot ul font{color:#999;}
+
+.foot ul li{
+		padding-right:20px;}
+.foot a:hover{
+		font-style:italic;}
